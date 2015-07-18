@@ -20,7 +20,7 @@
 .details {
   text-align: center;
   background-color: white;
-  margin: 40px 0;
+  margin: 35px 0;
   font-size: 14px;
 }
 /* line 24, ../sass/content.scss */
@@ -75,7 +75,7 @@
 }
 /* line 67, ../sass/content.scss */
 .tweets li {
-  padding: 5%;
+  padding: 25px;
   border-bottom: 1px #D3D2D2 solid;
 }
 /* line 71, ../sass/content.scss */
@@ -125,8 +125,24 @@
   float: right;
 }
 /* line 109, ../sass/content.scss */
-.tweets li p.description {
+.tweets li .description {
   line-height: 20px;
   font-size: 90%;
   padding-top: 10px;
+  width: 100%;
+}
+/* line 117, ../sass/content.scss */
+.tweets section.share {
+  color: #b1b2b1;
+  padding-top: 20px;
+}
+/* line 121, ../sass/content.scss */
+.tweets section.share * {
+  padding-right: 5px;
+  font-size: 110%;
+}
+/* line 126, ../sass/content.scss */
+.tweets section.share :last-child {
+  float: right;
+  font-size: 120%;
 }
