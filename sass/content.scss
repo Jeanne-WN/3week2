@@ -1,0 +1,16 @@
+$break-small: 320px;
+$break-medium: 768px;
+
+
+.content {
+  background-color: #98ECB6;
+  width: 100%;
+
+  @media only screen and (min-width: $break-small) {
+    width: 66.66%;
+  }
+
+  @media only screen and (min-width: $break-medium) {
+    width: 50%;
+  }
+}

@@ -1,0 +1,14 @@
+$break-small: 320px;
+$break-medium: 768px;
+
+.interest {
+  display: none;
+  background-color: rgb(252, 180, 243);
+
+  @media only screen and (min-width: $break-small) {
+  }
+
+  @media only screen and (min-width: $break-medium) {
+    display: block;
+  }
+}

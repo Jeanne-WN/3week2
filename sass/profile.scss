@@ -1,0 +1,16 @@
+$break-small: 320px;
+$break-medium: 768px;
+
+.profile {
+  background-color: rgb(252, 180, 243);
+  display: none;
+  
+  @media only screen and (min-width: $break-small) {
+    display: block;
+    width: 33.33%;
+  }
+
+  @media only screen and (min-width: $break-medium) {
+    width: 25%;
+  }
+}

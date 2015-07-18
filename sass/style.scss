@@ -1,6 +1,7 @@
 @import "compass/reset";
 @import "compass/css3";
-
-body {
-	font-size: 62.5%;
-}
+@import "grid";
+@import "header";
+@import "profile";
+@import "content";
+@import "interest";
