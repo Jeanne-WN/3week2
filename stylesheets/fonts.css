@@ -43,3 +43,8 @@
 .fa-resize:before {
   content: "\e603";
 }
+
+/* line 46, ../sass/fonts.scss */
+.fa-chain:before {
+  content: "\f0c1 ";
+}

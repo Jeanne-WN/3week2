@@ -1,13 +1,12 @@
 $break-small: 324px;
 $break-medium: 768px;
 
-
 .content {
   width: 100%;
   padding: 0;
 
   @media only screen and (min-width: $break-small) {
-    width: 66.66%;
+    width: 64.66%;
   }
 
   @media only screen and (min-width: $break-medium) {
@@ -28,7 +27,7 @@ $break-medium: 768px;
   }
 
   li:first-child {
-      border-bottom: 5px rgb(140, 181, 202) solid;
+      border-bottom: 5px #7EADD5 solid;
   }
 
   p {
@@ -46,6 +45,7 @@ $break-medium: 768px;
   @media only screen and (min-width: $break-small) {
     box-shadow: 1px 1px 2px rgb(181, 179, 176);
     font-size: 10px;
+    margin: 6% 0;
     li {
       width: 25%;
     }

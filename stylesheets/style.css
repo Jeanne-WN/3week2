@@ -160,75 +160,126 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 4, ../sass/profile.scss */
 .profile {
-  background-color: #fcb4f3;
+  background-color: #7EADD5;
   display: none;
-  padding: 15px;
+  padding: 45px 0;
+  margin-right: 4%;
+  width: 31.33%;
+  font-weight: 100;
+  text-rendering: geometricPrecision;
 }
 @media only screen and (min-width: 324px) {
   /* line 4, ../sass/profile.scss */
   .profile {
     display: block;
-    width: 33.33%;
   }
 }
 @media only screen and (min-width: 768px) {
   /* line 4, ../sass/profile.scss */
   .profile {
-    width: 25%;
+    margin-right: 3%;
+    width: 22%;
   }
 }
+/* line 22, ../sass/profile.scss */
+.profile .info {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+/* line 27, ../sass/profile.scss */
+.profile .info .avatar {
+  width: 45%;
+  border-radius: 50%;
+}
+/* line 32, ../sass/profile.scss */
+.profile .info .name {
+  line-height: 45px;
+  font-weight: bold;
+  padding-top: 15px;
+  font-size: 105%;
+}
+/* line 39, ../sass/profile.scss */
+.profile .info .introduction {
+  font-size: 90%;
+  line-height: 20px;
+}
+/* line 44, ../sass/profile.scss */
+.profile .info a {
+  line-height: 60px;
+  text-decoration: none;
+  color: white;
+}
+/* line 50, ../sass/profile.scss */
+.profile .info .fa-chain {
+  font-size: 80%;
+  margin-right: 3px;
+}
+/* line 55, ../sass/profile.scss */
+.profile .info button {
+  display: block;
+  margin: auto;
+  padding: 10px 50px;
+  font-size: 80%;
+  font-weight: bold;
+  background-color: #6F97B8;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
 
-/* line 5, ../sass/content.scss */
+/* line 4, ../sass/content.scss */
 .content {
   width: 100%;
   padding: 0;
 }
 @media only screen and (min-width: 324px) {
-  /* line 5, ../sass/content.scss */
+  /* line 4, ../sass/content.scss */
   .content {
-    width: 66.66%;
+    width: 64.66%;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 5, ../sass/content.scss */
+  /* line 4, ../sass/content.scss */
   .content {
     width: 50%;
   }
 }
 
-/* line 18, ../sass/content.scss */
+/* line 17, ../sass/content.scss */
 .details {
   text-align: center;
   background-color: white;
   margin: 35px 0;
   font-size: 14px;
 }
-/* line 24, ../sass/content.scss */
+/* line 23, ../sass/content.scss */
 .details li {
   padding: 3%;
   width: 100%;
   line-height: 18px;
 }
-/* line 30, ../sass/content.scss */
+/* line 29, ../sass/content.scss */
 .details li:first-child {
-  border-bottom: 5px #8cb5ca solid;
+  border-bottom: 5px #7EADD5 solid;
 }
-/* line 34, ../sass/content.scss */
+/* line 33, ../sass/content.scss */
 .details p {
   text-transform: uppercase;
   color: #BABABA;
   font-weight: 100;
 }
-/* line 41, ../sass/content.scss */
+/* line 40, ../sass/content.scss */
 .details strong {
   font-weight: bold;
   color: #53514F;
 }
 @media only screen and (min-width: 324px) {
-  /* line 18, ../sass/content.scss */
+  /* line 17, ../sass/content.scss */
   .details {
     box-shadow: 1px 1px 2px #b5b3b0;
     font-size: 10px;
+    margin: 6% 0;
   }
   /* line 49, ../sass/content.scss */
   .details li {
@@ -236,7 +287,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media only screen and (min-width: 700px) {
-  /* line 18, ../sass/content.scss */
+  /* line 17, ../sass/content.scss */
   .details {
     font-size: 14px;
   }
@@ -384,6 +435,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 42, ../sass/fonts.scss */
 .fa-resize:before {
   content: "\e603";
+}
+
+/* line 46, ../sass/fonts.scss */
+.fa-chain:before {
+  content: "\f0c1 ";
 }
 
 /* line 10, ../sass/style.scss */

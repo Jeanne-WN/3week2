@@ -2,16 +2,66 @@ $break-small: 324px;
 $break-medium: 768px;
 
 .profile {
-  background-color: rgb(252, 180, 243);
+  background-color: #7EADD5;
   display: none;
-  padding: 15px;
+  padding: 45px 0;
+  margin-right: 4%;
+  width: 31.33%;
+  font-weight: 100;
+  text-rendering: geometricPrecision;
 
   @media only screen and (min-width: $break-small) {
     display: block;
-    width: 33.33%;
   }
 
   @media only screen and (min-width: $break-medium) {
-    width: 25%;
+    margin-right: 3%;
+    width: 22%;
+  }
+
+  .info {
+    text-align: center;
+    color: white;
+    padding: 10px;
+
+    .avatar {
+      width: 45%;
+      border-radius: 50%;
+    }
+
+    .name {
+      line-height: 45px;
+      font-weight: bold;
+      padding-top: 15px;
+      font-size: 105%;
+    }
+
+    .introduction {
+      font-size: 90%;
+      line-height: 20px;
+    }
+
+    a {
+      line-height: 60px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .fa-chain {
+      font-size: 80%;
+      margin-right: 3px;
+    }
+
+    button {
+      display: block;
+      margin: auto;
+      padding: 10px 50px;
+      font-size: 80%;
+      font-weight: bold;
+      background-color: #6F97B8;
+      border: none;
+      border-radius: 20px;
+      color: white;
+    }
   }
 }
