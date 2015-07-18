@@ -131,10 +131,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 18, ../sass/grid.scss */
 [class*="col-"] {
   float: left;
-  padding: 15px;
 }
 
-/* line 23, ../sass/grid.scss */
+/* line 22, ../sass/grid.scss */
 .row::after {
   content: " ";
   clear: both;
@@ -144,24 +143,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 12, ../sass/header.scss */
 .social {
   background-color: #8BBCE5;
+  padding: 15px;
 }
 
-/* line 16, ../sass/header.scss */
+/* line 17, ../sass/header.scss */
 .icon {
   background-color: #f7bcbc;
+  padding: 15px;
 }
 
-/* line 20, ../sass/header.scss */
+/* line 22, ../sass/header.scss */
 .search {
   background-color: #efe19d;
+  padding: 15px;
 }
 
 /* line 4, ../sass/profile.scss */
 .profile {
   background-color: #fcb4f3;
   display: none;
+  padding: 15px;
 }
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 324px) {
   /* line 4, ../sass/profile.scss */
   .profile {
     display: block;
@@ -177,10 +180,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 5, ../sass/content.scss */
 .content {
-  background-color: #98ECB6;
   width: 100%;
+  padding: 0;
 }
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 324px) {
   /* line 5, ../sass/content.scss */
   .content {
     width: 66.66%;
@@ -193,14 +196,136 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 
+/* line 18, ../sass/content.scss */
+.details {
+  text-align: center;
+  background-color: white;
+  margin: 40px 0;
+  font-size: 14px;
+}
+/* line 24, ../sass/content.scss */
+.details li {
+  padding: 5%;
+  width: 100%;
+  line-height: 18px;
+}
+/* line 30, ../sass/content.scss */
+.details li:first-child {
+  border-bottom: 5px #8cb5ca solid;
+}
+/* line 34, ../sass/content.scss */
+.details p {
+  text-transform: uppercase;
+  color: #BABABA;
+  font-weight: 100;
+}
+/* line 41, ../sass/content.scss */
+.details strong {
+  font-weight: bold;
+  color: #53514F;
+}
+@media only screen and (min-width: 324px) {
+  /* line 18, ../sass/content.scss */
+  .details {
+    box-shadow: 1px 1px 2px #b5b3b0;
+    font-size: 10px;
+  }
+  /* line 49, ../sass/content.scss */
+  .details li {
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 700px) {
+  /* line 18, ../sass/content.scss */
+  .details {
+    font-size: 14px;
+  }
+}
+
+/* line 59, ../sass/content.scss */
+.tweets {
+  background-color: white;
+  color: #737270;
+}
+@media only screen and (min-width: 324px) {
+  /* line 59, ../sass/content.scss */
+  .tweets {
+    box-shadow: 1px 1px 2px #b5b3b0;
+  }
+}
+/* line 67, ../sass/content.scss */
+.tweets li {
+  padding: 5%;
+  border-bottom: 1px #D3D2D2 solid;
+}
+/* line 71, ../sass/content.scss */
+.tweets li .col-left {
+  width: 16.66%;
+  text-align: center;
+  padding-right: 3%;
+}
+@media only screen and (min-width: 324px) {
+  /* line 71, ../sass/content.scss */
+  .tweets li .col-left {
+    width: 10.5%;
+  }
+}
+/* line 80, ../sass/content.scss */
+.tweets li .col-right {
+  width: 83.33%;
+}
+@media only screen and (min-width: 324px) {
+  /* line 80, ../sass/content.scss */
+  .tweets li .col-right {
+    width: 87.5%;
+  }
+}
+/* line 87, ../sass/content.scss */
+.tweets li .avatar {
+  width: 100%;
+  border-radius: 50%;
+}
+/* line 92, ../sass/content.scss */
+.tweets li p.info {
+  color: #A3A19E;
+  font-weight: lighter;
+}
+/* line 96, ../sass/content.scss */
+.tweets li p.info .name {
+  font-weight: bold;
+  font-size: 100%;
+  color: #53514F;
+}
+/* line 101, ../sass/content.scss */
+.tweets li p.info span {
+  font-size: 80%;
+}
+/* line 104, ../sass/content.scss */
+.tweets li p.info .time {
+  float: right;
+}
+/* line 109, ../sass/content.scss */
+.tweets li p.description {
+  line-height: 20px;
+  font-size: 90%;
+  padding-top: 10px;
+}
+
 /* line 4, ../sass/interest.scss */
 .interest {
   display: none;
   background-color: #fcb4f3;
+  padding: 15px;
 }
 @media only screen and (min-width: 768px) {
   /* line 4, ../sass/interest.scss */
   .interest {
     display: block;
   }
+}
+
+/* line 9, ../sass/style.scss */
+body {
+  background-color: #EFE7D8;
+  font-family: sans-serif;
 }

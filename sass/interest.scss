@@ -1,9 +1,10 @@
-$break-small: 320px;
+$break-small: 324px;
 $break-medium: 768px;
 
 .interest {
   display: none;
   background-color: rgb(252, 180, 243);
+  padding: 15px;
 
   @media only screen and (min-width: $break-small) {
   }

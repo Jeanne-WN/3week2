@@ -1,4 +1,4 @@
-$break-small: 320px;
+$break-small: 324px;
 $break-medium: 768px;
 
 header {
@@ -11,12 +11,15 @@ header {
 
 .social {
   background-color: #8BBCE5;
+  padding: 15px;
 }
 
 .icon {
   background-color: rgb(247, 188, 188);
+  padding: 15px;
 }
 
 .search{
   background-color: rgb(239, 225, 157);
+  padding: 15px;
 }

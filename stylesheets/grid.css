@@ -66,10 +66,9 @@
 /* line 18, ../sass/grid.scss */
 [class*="col-"] {
   float: left;
-  padding: 15px;
 }
 
-/* line 23, ../sass/grid.scss */
+/* line 22, ../sass/grid.scss */
 .row::after {
   content: " ";
   clear: both;

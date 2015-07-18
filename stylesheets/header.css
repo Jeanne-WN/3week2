@@ -1,14 +1,17 @@
 /* line 12, ../sass/header.scss */
 .social {
   background-color: #8BBCE5;
+  padding: 15px;
 }
 
-/* line 16, ../sass/header.scss */
+/* line 17, ../sass/header.scss */
 .icon {
   background-color: #f7bcbc;
+  padding: 15px;
 }
 
-/* line 20, ../sass/header.scss */
+/* line 22, ../sass/header.scss */
 .search {
   background-color: #efe19d;
+  padding: 15px;
 }
