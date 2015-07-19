@@ -1,7 +1,7 @@
 /* line 4, ../sass/interest.scss */
 .interest {
   display: none;
-  background-color: #fcb4f3;
+  background-color: white;
   padding: 15px;
 }
 @media only screen and (min-width: 768px) {

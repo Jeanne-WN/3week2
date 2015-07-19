@@ -60,3 +60,23 @@
 .fa-redo:before {
   content: "\e601";
 }
+
+/* line 60, ../sass/fonts.scss */
+.fa-quill:before {
+  content: "\e600";
+}
+
+/* line 64, ../sass/fonts.scss */
+.fa-twitter:before {
+  content: "\e608";
+}
+
+/* line 68, ../sass/fonts.scss */
+.fa-notifications:before {
+  content: "\e607";
+}
+
+/* line 72, ../sass/fonts.scss */
+.fa-mail:before {
+  content: "\f03b";
+}
