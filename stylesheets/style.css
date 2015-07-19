@@ -177,8 +177,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media only screen and (min-width: 768px) {
   /* line 4, ../sass/profile.scss */
   .profile {
-    margin-right: 3%;
-    width: 22%;
+    margin-right: 4%;
+    width: 21%;
   }
 }
 /* line 22, ../sass/profile.scss */
@@ -242,6 +242,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 33.33%;
   float: left;
 }
+/* line 79, ../sass/profile.scss */
+.profile .pictures::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+/* line 85, ../sass/profile.scss */
+.profile .activities {
+  padding: 0 10px;
+  color: white;
+}
+/* line 89, ../sass/profile.scss */
+.profile .activities p.title {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+/* line 94, ../sass/profile.scss */
+.profile .activities li {
+  line-height: 25px;
+  font-size: 85%;
+  color: #5E809C;
+}
+/* line 99, ../sass/profile.scss */
+.profile .activities li span {
+  padding-right: 3px;
+}
+/* line 103, ../sass/profile.scss */
+.profile .activities li a {
+  color: white;
+  font-size: 90%;
+}
 
 /* line 4, ../sass/content.scss */
 .content {
@@ -294,7 +325,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .details {
     box-shadow: 1px 1px 2px #b5b3b0;
     font-size: 10px;
-    margin: 6% 0;
+    margin: 7% 0;
   }
   /* line 49, ../sass/content.scss */
   .details li {
@@ -455,6 +486,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 46, ../sass/fonts.scss */
 .fa-chain:before {
   content: "\f0c1 ";
+}
+
+/* line 50, ../sass/fonts.scss */
+.fa-plus:before {
+  content: "\f05d";
+  font-size: 120%;
+  padding-right: 3px;
+}
+
+/* line 56, ../sass/fonts.scss */
+.fa-redo:before {
+  content: "\e601";
 }
 
 /* line 10, ../sass/style.scss */

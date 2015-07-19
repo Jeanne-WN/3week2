@@ -17,8 +17,8 @@
 @media only screen and (min-width: 768px) {
   /* line 4, ../sass/profile.scss */
   .profile {
-    margin-right: 3%;
-    width: 22%;
+    margin-right: 4%;
+    width: 21%;
   }
 }
 /* line 22, ../sass/profile.scss */
@@ -81,4 +81,35 @@
 .profile .pictures img {
   width: 33.33%;
   float: left;
+}
+/* line 79, ../sass/profile.scss */
+.profile .pictures::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+/* line 85, ../sass/profile.scss */
+.profile .activities {
+  padding: 0 10px;
+  color: white;
+}
+/* line 89, ../sass/profile.scss */
+.profile .activities p.title {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+/* line 94, ../sass/profile.scss */
+.profile .activities li {
+  line-height: 25px;
+  font-size: 85%;
+  color: #5E809C;
+}
+/* line 99, ../sass/profile.scss */
+.profile .activities li span {
+  padding-right: 3px;
+}
+/* line 103, ../sass/profile.scss */
+.profile .activities li a {
+  color: white;
+  font-size: 90%;
 }

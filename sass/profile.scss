@@ -15,8 +15,8 @@ $break-medium: 768px;
   }
 
   @media only screen and (min-width: $break-medium) {
-    margin-right: 3%;
-    width: 22%;
+    margin-right: 4%;
+    width: 21%;
   }
 
   .info {
@@ -73,6 +73,37 @@ $break-medium: 768px;
     img {
       width: 33.33%;
       float:left;
+    }
+  }
+
+  .pictures::after {
+    content: " ";
+    clear: both;
+    display: block;
+  }
+
+  .activities {
+    padding: 0 10px;
+    color: white;
+
+    p.title {
+      text-transform: uppercase;
+      padding-bottom: 15px;
+    }
+
+    li {
+      line-height: 25px;
+      font-size: 85%;
+      color: #5E809C;
+
+      span {
+        padding-right: 3px;
+      }
+
+      a {
+        color: white;
+        font-size: 90%;
+      }
     }
   }
 }

@@ -48,3 +48,15 @@
 .fa-chain:before {
   content: "\f0c1 ";
 }
+
+/* line 50, ../sass/fonts.scss */
+.fa-plus:before {
+  content: "\f05d";
+  font-size: 120%;
+  padding-right: 3px;
+}
+
+/* line 56, ../sass/fonts.scss */
+.fa-redo:before {
+  content: "\e601";
+}
