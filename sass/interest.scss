@@ -11,5 +11,7 @@ $break-medium: 768px;
 
   @media only screen and (min-width: $break-medium) {
     display: block;
+    margin-left: 4%;
+    width: 21%;
   }
 }

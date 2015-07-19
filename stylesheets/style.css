@@ -497,6 +497,8 @@ header .search img.avatar {
   /* line 4, ../sass/interest.scss */
   .interest {
     display: block;
+    margin-left: 4%;
+    width: 21%;
   }
 }
 
