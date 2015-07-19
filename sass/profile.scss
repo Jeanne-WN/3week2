@@ -4,7 +4,7 @@ $break-medium: 768px;
 .profile {
   background-color: #7EADD5;
   display: none;
-  padding: 45px 0;
+  padding: 3% 0;
   margin-right: 4%;
   width: 31.33%;
   font-weight: 100;
@@ -27,6 +27,9 @@ $break-medium: 768px;
     .avatar {
       width: 45%;
       border-radius: 50%;
+      @media only screen and (min-width: $break-medium) {
+        width: 40%;
+      }
     }
 
     .name {
@@ -57,11 +60,19 @@ $break-medium: 768px;
       margin: auto;
       padding: 10px 50px;
       font-size: 80%;
-      font-weight: bold;
+      font-weight: 100;
       background-color: #6F97B8;
       border: none;
       border-radius: 20px;
       color: white;
+    }
+  }
+
+  .pictures {
+    margin: 10% 0;
+    img {
+      width: 33.33%;
+      float:left;
     }
   }
 }

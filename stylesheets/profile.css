@@ -2,7 +2,7 @@
 .profile {
   background-color: #7EADD5;
   display: none;
-  padding: 45px 0;
+  padding: 3% 0;
   margin-right: 4%;
   width: 31.33%;
   font-weight: 100;
@@ -32,38 +32,53 @@
   width: 45%;
   border-radius: 50%;
 }
-/* line 32, ../sass/profile.scss */
+@media only screen and (min-width: 768px) {
+  /* line 27, ../sass/profile.scss */
+  .profile .info .avatar {
+    width: 40%;
+  }
+}
+/* line 35, ../sass/profile.scss */
 .profile .info .name {
   line-height: 45px;
   font-weight: bold;
   padding-top: 15px;
   font-size: 105%;
 }
-/* line 39, ../sass/profile.scss */
+/* line 42, ../sass/profile.scss */
 .profile .info .introduction {
   font-size: 90%;
   line-height: 20px;
 }
-/* line 44, ../sass/profile.scss */
+/* line 47, ../sass/profile.scss */
 .profile .info a {
   line-height: 60px;
   text-decoration: none;
   color: white;
 }
-/* line 50, ../sass/profile.scss */
+/* line 53, ../sass/profile.scss */
 .profile .info .fa-chain {
   font-size: 80%;
   margin-right: 3px;
 }
-/* line 55, ../sass/profile.scss */
+/* line 58, ../sass/profile.scss */
 .profile .info button {
   display: block;
   margin: auto;
   padding: 10px 50px;
   font-size: 80%;
-  font-weight: bold;
+  font-weight: 100;
   background-color: #6F97B8;
   border: none;
   border-radius: 20px;
   color: white;
+}
+/* line 71, ../sass/profile.scss */
+.profile .pictures {
+  margin: 10% 0;
+}
+/* line 73, ../sass/profile.scss */
+.profile .pictures img {
+  width: 33.33%;
+  float: left;
 }
