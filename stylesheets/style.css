@@ -144,7 +144,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 header {
   background-color: white;
   text-align: center;
-  position: relative;
   z-index: 1;
 }
 @media only screen and (min-width: 324px) {
@@ -153,14 +152,14 @@ header {
     box-shadow: 1px 1px 2px #b5b3b0;
   }
 }
-/* line 18, ../sass/header.scss */
+/* line 17, ../sass/header.scss */
 header .social .main-icon {
   width: 40px;
   border-right: 1px #D3D2D2 solid;
   padding: 10px 50px 10px 15px;
   float: left;
 }
-/* line 24, ../sass/header.scss */
+/* line 23, ../sass/header.scss */
 header .social .main-icon span {
   background-color: #7EADD5;
   border-radius: 50%;
@@ -169,7 +168,7 @@ header .social .main-icon span {
   color: white;
   display: inline-block;
 }
-/* line 34, ../sass/header.scss */
+/* line 33, ../sass/header.scss */
 header .social .messages {
   display: none;
   float: left;
@@ -177,12 +176,12 @@ header .social .messages {
   padding-left: 10px;
 }
 @media only screen and (min-width: 324px) {
-  /* line 34, ../sass/header.scss */
+  /* line 33, ../sass/header.scss */
   header .social .messages {
     display: inline;
   }
 }
-/* line 43, ../sass/header.scss */
+/* line 42, ../sass/header.scss */
 header .social .messages span {
   border-radius: 50%;
   width: 40px;
@@ -192,16 +191,16 @@ header .social .messages span {
   border: 1px #D3D2D2 solid;
   font-family: 'icomoon';
 }
-/* line 55, ../sass/header.scss */
+/* line 54, ../sass/header.scss */
 header .social::after {
   content: "";
   clear: both;
 }
-/* line 60, ../sass/header.scss */
+/* line 59, ../sass/header.scss */
 header .icon {
   padding: 15px;
 }
-/* line 63, ../sass/header.scss */
+/* line 62, ../sass/header.scss */
 header .icon span {
   margin: auto;
   line-height: 30px;
@@ -210,11 +209,11 @@ header .icon span {
   color: #7EADD5;
   display: block;
 }
-/* line 73, ../sass/header.scss */
+/* line 72, ../sass/header.scss */
 header .search {
   padding: 10px;
 }
-/* line 75, ../sass/header.scss */
+/* line 74, ../sass/header.scss */
 header .search img.avatar {
   width: 40px;
   border-radius: 50%;
@@ -595,4 +594,22 @@ body {
   body {
     min-width: 670px;
   }
+}
+
+/* line 18, ../sass/style.scss */
+header {
+  position: fixed;
+  width: 100%;
+}
+@media only screen and (min-width: 324px) {
+  /* line 18, ../sass/style.scss */
+  header {
+    min-width: 670px;
+  }
+}
+
+/* line 26, ../sass/style.scss */
+article {
+  position: relative;
+  top: 60px;
 }

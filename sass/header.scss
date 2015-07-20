@@ -4,7 +4,6 @@ $break-medium: 768px;
 header {
   background-color: white;
   text-align: center;
-  position: relative;
   z-index: 1;
 
   @media only screen and (min-width: $break-small) {
